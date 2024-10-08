@@ -57,8 +57,6 @@ let sendEmailToVendor = async ({ vendor, user, orders }) => {
     template.body = template.body.replaceAll("[TOTAL_AMOUNT]", toFixedNumber(totalAmount));
 
     // Send the email
-    sendEmail("uza.vendor@yopmail.com", template.subject, template.body);
-    sendEmail("jaswinder.suffescom@gmail.com", template.subject, template.body);
     // sendEmail(vendor.email, template.subject, template.body);
   }
 };
