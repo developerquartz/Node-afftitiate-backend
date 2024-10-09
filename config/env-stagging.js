@@ -1,13 +1,10 @@
 const env = {
     "jwtSecret": "customerUZA##123",
     "terminologyLang": ["en", "fr", "es", "de", "it", "ru", "ht", "zh"],
-    "mongoAtlasUri": "mongodb+srv://jaswindersuffescom:C4YDyUxhMwZsU5tf@iriba.51l9r3r.mongodb.net/BOK_TEST_DEV",
     // "mongoAtlasUri": "mongodb://localhost:27017/BOK_TEST_DEV",
     "socketUrl": "",
     "socketIp": "",
     "socketUrlApi": "",
-    "apiUrl": "https://uza-customer-api.suffescom.dev/authenticationservice/api/v1/",
-    "apiBaseUrl": "https://uza-customer-api.suffescom.dev",
     // "apiUrl": "http://127.0.0.1:3089/api/v1/",
     // "apiBaseUrl": "http://127.0.0.1:3089",
     "AWS_SES": {

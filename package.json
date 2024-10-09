@@ -11,7 +11,7 @@
   "keywords": [
     "logs"
   ],
-  "author": "Suffescom",
+  "author": "XYZ",
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-ses": "^3.600.0",
