@@ -1,9 +1,10 @@
 const env = {
+<<<<<<< HEAD
     "jwtSecret": "customerUZA##123",
     "terminologyLang": ["en", "fr", "es", "de", "it", "ru", "ht", "zh"],
     // "mongoAtlasUri": "mongodb://localhost:27017/BOK_TEST_DEV",
     "socketUrl": "",
-    "socketIp": "",
+    "socketIp": "", 
     "socketUrlApi": "",
     // "apiUrl": "http://127.0.0.1:3089/api/v1/",
     // "apiBaseUrl": "http://127.0.0.1:3089",
@@ -50,6 +51,10 @@ const env = {
         level: "store",
         percentage: 2
     }
+=======
+    "test": "abc",
+    
+>>>>>>> 2b40df5d953398391ad46df48590e8852ec2b76f
 }
 
 module.exports = env;
